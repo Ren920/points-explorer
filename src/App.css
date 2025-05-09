@@ -1,0 +1,9 @@
+/* Tailwind CSS imports */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.App {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
