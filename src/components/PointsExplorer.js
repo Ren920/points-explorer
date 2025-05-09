@@ -602,31 +602,3 @@ const PointsExplorer = () => {
                         </div>
                       </div>
                     );
-                  }).filter(Boolean)}
-                </div>
-              ) : (
-                <div className="text-center py-16 max-w-md mx-auto">
-                  <div className="bg-gray-100 inline-block p-4 rounded-full mb-4">
-                    <X size={24} className="text-gray-400" />
-                  </div>
-                  <h3 className="text-xl font-medium text-gray-700">No destinations found</h3>
-                  <p className="text-gray-500 mt-2">Try adjusting your search options or selecting a different cabin class</p>
-                </div>
-              )}
-            </>
-          ) : (
-            <div className="text-center py-16 max-w-md mx-auto">
-              <div className="bg-teal-100 inline-block p-4 rounded-full mb-4">
-                <Send size={24} className="text-teal-500" />
-              </div>
-              <h3 className="text-xl font-medium text-gray-700">Where can your points take you?</h3>
-              <p className="text-gray-500 mt-2">Select your card and cabin class to discover destinations</p>
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default PointsExplorer;
